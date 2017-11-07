@@ -1,0 +1,143 @@
+body {
+    background: #fff;
+    margin: 0;
+    padding: 0;
+    width: 688px;
+    margin: 0 auto;
+    padding: 0 16px;
+    font-family: sans-serif;
+}
+
+body > header {    
+    height: 72px;
+    width: 100%;
+    line-height: 72px;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-top: 72px;
+    font-size: 24px;
+    font-weight: 600;
+    color: rgba(0,0,0,.87);
+}
+
+.box-wrapper {
+    height: 216px;
+    width: 604px; 
+}
+
+h3 {
+    color: rgba(0,0,0,.54);
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 32px;
+    line-height: 32px;
+}
+
+.file-box {
+    height: 168px;
+    width: 100%;
+    background-color: #F5F5F5;
+    border: 2px dashed #9E9E9E;
+    border-radius: 2px;
+    padding: 24px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+}
+
+#select-files {
+    height: 32px;
+}
+
+#options {
+    margin-bottom: 24px;
+    padding: 0;
+}
+
+#options header {
+    height: 48px;
+    padding-left: 112px;
+    margin-bottom: 8px;
+}
+
+header > h5 {
+    float: left;
+    color: rgba(0,0,0,.87);
+    position: relative;
+    height: 64px;
+    line-height: 96px;
+    width: 72px;
+    text-align: center;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center 12px;
+}
+
+header > h5:hover {
+    background-color: rgba(0,0,0,0.12);
+    cursor: pointer;
+}
+
+header > h5:active {
+    background-position-y: 10px;
+    background-size: 26px 26px;
+}
+
+
+h5.hr { background-image: url(icons/heart.svg); }
+h5.altitude { background-image: url(icons/altitude.svg); }
+h5.location { background-image: url(icons/location.svg); }
+h5.cadence { background-image: url(icons/cadence.svg); }
+h5.speed { background-image: url(icons/speed.svg); }
+h5.distance { background-image: url(icons/distance.svg); }
+h5.watts { background-image: url(icons/power.svg); }
+h5.laps { background-image: url(icons/laps.svg); }
+
+
+
+.row {
+    float: left;
+    height: 28px;
+    width: 100%;
+}
+
+.row > h4 {
+    float: left;
+    color: rgba(0,0,0,.54);
+    width: 112px;
+    height: 28px;
+    white-space: nowrap;
+    line-height: 28px;
+    margin: 0;
+    padding: 0;
+}
+
+.row label {
+    float: left;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+    width: 72px;
+    margin: 0;
+    padding: 0;
+}
+
+#blend-wrapper {
+    position: relative;
+    margin-top: 16px;
+    height: 32px;
+    width: 100%;
+    float: left;
+}
+
+#blend-button {
+    float: right;
+    height: 32px;
+    width: 112px;
+}
